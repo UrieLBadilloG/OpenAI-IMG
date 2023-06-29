@@ -20,16 +20,17 @@ async function callOpenAI(prompt) {
     try {
       // Configurar los parámetros de la API de OpenAI
       const data = {
-        "prompt": `Dame 10 palabras que esten relacionadas con la palabra ${prompt}`,
-        "max_tokens": 50,
-        "n": 1,
+        "prompt": `${prompt}`,
+        // "prompt": `Dime 3 palabras relacionadas con: gomitas`,
+        "max_tokens": 200,
+        "n": 5,
         "stop": null,
-        "temperature": 1,
+        "temperature": 0.5,
         "top_p": 1
       };
   
       // Realizar una solicitud POST a la API de OpenAI y obtener la respuesta
-      const response = await axios.post("https://api.openai.com/v1/engines/text-davinci-002/completions", data, { headers });
+      const response = await axios.post("https://api.openai.com/v1/engines/text-davinci-003/completions", data, { headers });
   
       // Devolver el texto generado por el modelo de lenguaje
       return response.data.choices[0].text;
