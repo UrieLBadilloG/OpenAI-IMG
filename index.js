@@ -22,7 +22,7 @@ async function callOpenAI(prompt) {
       const data = {
         "prompt": `${prompt}`,
         // "prompt": `Dime 3 palabras relacionadas con: gomitas`,
-        "max_tokens": 200,
+        "max_tokens": 10,
         "n": 5,
         "stop": null,
         "temperature": 0.5,
