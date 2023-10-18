@@ -6,3 +6,51 @@ despues dale npm i para instalar todas las paqueterias necesarias
 Para correr el proyecto sería
 "node image.js" Si quieres correr el servidor de la imagen
 "node index.js" Si quieres correrlo para utilizar el modelo de chatGPT-3
+
+
+API'S SUGERIDAS
+
+AWS Rekognition API:
+
+Permite construir aplicaciones de visión por computadora para análisis de imágenes y videos.
+Ofrece detección de objetos, detección facial y reconocimiento óptico de caracteres.
+Tiene un plan gratuito que incluye el análisis de 5000 imágenes y el almacenamiento de 1000 metadatos faciales por mes durante 12 meses​1​.
+
+Google Cloud Vision API:
+
+Ofrece modelos de visión por computadora y aprendizaje automático preentrenados a través de APIs REST y RPC.
+Permite la clasificación de imágenes, reconocimiento de objetos y de caracteres, entre otros.
+Ofrece una versión gratuita con ciertas limitaciones​1​.
+
+Microsoft Computer Vision:
+
+Permite construir aplicaciones potentes de reconocimiento de fotos o videos con una simple llamada API.
+No está diseñada específicamente para tareas complejas como el reconocimiento facial.
+Ofrece 5000 llamadas gratuitas al mes​1​.
+
+Kairos Face Recognition API:
+
+Especializada en reconocimiento facial​2​.
+
+IBM Watson Visual Recognition API:
+
+Ofrece una variedad de funcionalidades de visión por computadora​2​.
+
+Imagga API:
+
+Ofrece diversas funcionalidades de procesamiento y análisis de imágenes​2​.
+
+Cloud Sight API:
+
+Ofrece reconocimiento y análisis de imágenes​2​.
+
+ClarifaiV2 API:
+
+Proporciona servicios de visión por computadora para análisis de imágenes y videos​2​.
+
+ImageVision API:
+
+Ofrece funcionalidades de análisis y reconocimiento de imágenes​2​.
+EmoVu API:
+
+Especializada en reconocimiento de emociones a través del análisis de expresiones faciales​2​.
