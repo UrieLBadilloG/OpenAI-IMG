@@ -1,0 +1,8 @@
+Crea un archivo llamado .env y en el mismo crea tu variable de entorno donde guardaras tu apiKEY 
+Se guardara de la siguiete forma
+OPENAI_API_KEY=your_api_key
+
+despues dale npm i para instalar todas las paqueterias necesarias 
+Para correr el proyecto sería
+"node image.js" Si quieres correr el servidor de la imagen
+"node index.js" Si quieres correrlo para utilizar el modelo de chatGPT-3
